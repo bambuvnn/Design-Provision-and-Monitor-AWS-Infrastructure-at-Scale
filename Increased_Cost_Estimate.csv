@@ -1,0 +1,30 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,19712.19,236546.28,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (Ohio),,Amazon EC2 ,0,1420.2160000000001,17042.59,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (t3.2xlarge), Pricing strategy (Compute Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon EC2 ,0,1455.8400000000001,17470.08,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (c5.2xlarge), Pricing strategy ( 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon RDS for PostgreSQL,0,4457.426,53489.11,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Additional backup storage (10 TB)"
+My Estimate,US East (Ohio),,Amazon Route 53,0,2300.5,27606,USD,,"Hosted Zones (1), Basic Checks Within AWS (1000), Number of Elastic Network Interfaces (20)"
+My Estimate,US East (Ohio),,S3 Standard,0,23,276,USD,,S3 Standard storage (1000 GB per month)
+My Estimate,US East (Ohio),,Data Transfer,0,0,0,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,2830.5,33966,USD,,Number of NAT Gateways (2)
+My Estimate,US East (Ohio),,Application Load Balancer,0,1184.43,14213.16,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),,Network Load Balancer,0,1768.43,21221.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (200 GB per hour), Processed bytes per NLB for TLS (200 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
+My Estimate,US East (Ohio),,Amazon CloudWatch,0,2921.84,35062.08,USD,,"Number of Metrics (includes detailed and custom metrics) (20), Standard Logs: Data Ingested (3 TB), Logs Delivered to CloudWatch Logs: Data Ingested (2 TB), Logs Delivered to S3: Data Ingested (1 TB), Number of Dashboards (10), Number of High Resolution Alarm Metrics (10), Number of composite alarms (5), Number of Contributor Insights rules for DynamoDB (100), Total number of events for DynamoDB (10 million events per month), Number of Lambda functions ()"
+My Estimate,US East (Ohio),,AWS Web Application Firewall (WAF),0,1350,16200,USD,,"Number of Web Access Control Lists (Web ACLs) utilized (10 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (10 per month), Number of Rules inside each Rule Group (10 per month), Number of Managed Rule Groups per Web ACL (10 per month)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+EC2- increased number of instances from total 6 to 8 for the Web Servers and 6 to 8 for the Application Servers,,,,,,,,,
+"RDS - increased number of instances from 1 to 2. One master per availability zone	",,,,,,,,,
+"Route 53 - increased number of Elastic Network Instances from 10 to 20, Basic Checks Within AWS from 500 to 1000",,,,,,,,,
+"	VPC - increased number of NAT Gateways from 1 to 2. One per availability zone",,,,,,,,,
+Application Load Balancer - increased number of processed GB per month (EC2 and IP),,,,,,,,,
+Network Load Balancer - increased number of processed GB per month (NLB for TCP),,,,,,,,,
+CouldWatch - increased number of logs and metrics,,,,,,,,,
+Web Application Firewall- introduced web application firewall,,,,,,,,,

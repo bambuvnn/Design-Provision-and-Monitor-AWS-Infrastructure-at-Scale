@@ -1,0 +1,23 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,8619.220000000001,103430.64,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (Ohio),,Amazon EC2 ,0,378.816,4545.79,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon EC2 ,0,386.7,4640.40,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (c5.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon RDS for PostgreSQL,0,2277.24,27326.88,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB), Nodes (1), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (Ohio),,Amazon Route 53,0,2300.5,27606.00,USD,,"Hosted Zones (1), Basic Checks Within AWS (1000), Number of Elastic Network Interfaces (20)"
+My Estimate,US East (Ohio),,S3 Standard,0,23,276.00,USD,,S3 Standard storage (1000 GB per month)
+My Estimate,US East (Ohio),,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,482.85,5794.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (Ohio),,Application Load Balancer,0,1184.43,14213.16,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),,Network Load Balancer,0,1330.43,15965.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (200 GB per hour), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
+My Estimate,US East (Ohio),,Amazon CloudWatch,0,255.25,3063.00,USD,,"Number of Metrics (includes detailed and custom metrics) (10), GetMetricData: Number of metrics requested (), GetMetricWidgetImage: Number of metrics requested (), Standard Logs: Data Ingested (500 GB), Number of Custom/Cross-account events ()"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

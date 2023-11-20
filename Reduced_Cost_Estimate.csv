@@ -1,0 +1,25 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,6444.86,77338.32,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (Ohio),,Amazon EC2 ,0,277.2,3326.4,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.large), Pricing strategy (Compute Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon EC2 ,0,285.96,3431.52,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (c5.large), Pricing strategy (Compute Savings Plans 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon RDS for PostgreSQL,0,1529.793,18357.52,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB), Nodes (1), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront)"
+My Estimate,US East (Ohio),,Amazon Route 53,0,1776.75,21321,USD,,"Hosted Zones (1), Basic Checks Within AWS (500), Number of Elastic Network Interfaces (17)"
+My Estimate,US East (Ohio),,S3 Standard,0,23,276,USD,,S3 Standard storage (1000 GB per month)
+My Estimate,US East (Ohio),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,482.85,5794.2,USD,,Number of NAT Gateways (1)
+My Estimate,US East (Ohio),,Application Load Balancer,0,921.63,11059.56,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),,Network Load Balancer,0,892.43,10709.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
+My Estimate,US East (Ohio),,Amazon CloudWatch,0,255.25,3063,USD,,"Number of Metrics (includes detailed and custom metrics) (10), GetMetricData: Number of metrics requested (), GetMetricWidgetImage: Number of metrics requested (), Standard Logs: Data Ingested (500 GB), Number of Custom/Cross-account events ()"
+,,,,,,,,,
+,,,,,,,,,
+EC2 pricing strategy changed from on-demand to 1-year prepaid reserved instances for both web and application servers,,,,,,,,,
+RDS ricing strategy changed from on-demand to 1-year prepaid reserved instances,,,,,,,,,
+Route 53 changed number of Elastic Network Instances from 1000 to 500 and reduced number of basic checks,,,,,,,,,
+Application Load Balancer - reduces number of processed GB per month (EC2 and IP),,,,,,,,,
+Network Load Balancer - reduces number of processed GB per month (NLB for TCP),,,,,,,,,
